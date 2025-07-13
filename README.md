@@ -78,7 +78,7 @@ public void setDiskon(double diskon) {
 }
 ```
 
-6. **Accessor** atau getter digunakan untuk mengambil nilai dari suatu atribut. Pada kode ini, `getNama`, `getHarga`, `getJenis` dan `getDiskon' adalah contoh method accessor.
+6. **Accessor** atau getter digunakan untuk mengambil nilai dari suatu atribut. Pada kode ini, `getNama`, `getHarga`, `getJenis` dan 'getDiskon' adalah contoh method accessor.
 
 ```bash
 public String getNama() {
