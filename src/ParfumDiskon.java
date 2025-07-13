@@ -1,5 +1,5 @@
 public class ParfumDiskon extends Parfum {
-    private double diskon;
+    private double diskon; // Atribut untuk menyimpan nilai diskon
 
     // Konstruktor
     public ParfumDiskon(String nama, double harga, String jenis, double diskon) {
