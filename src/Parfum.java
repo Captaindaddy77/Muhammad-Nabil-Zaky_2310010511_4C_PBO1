@@ -12,6 +12,19 @@ public class Parfum {
     }
     
     // Mutator
+        public void setNama(String nama) {
+        this.nama = nama;
+    }
+
+    public void setHarga(double harga) {
+        this.harga = harga;
+    }
+
+    public void setJenis(String jenis) {
+        this.jenis = jenis;
+    }  
+    
+    // Accessor
     public String getNama() {
         return nama;
     }
@@ -24,24 +37,11 @@ public class Parfum {
         return jenis;
     }
     
-    // Accessor
-    public void setNama(String nama) {
-        this.nama = nama;
-    }
-
-    public void setHarga(double harga) {
-        this.harga = harga;
-    }
-
-    public void setJenis(String jenis) {
-        this.jenis = jenis;
-    }  
-    
     // Menampilkan informasi parfum
     public void tampilInfo() {
         System.out.println("Nama Parfum: " + nama);
         System.out.println("Harga: Rp " + harga);
         System.out.println("Jenis: " + jenis);
-    }
+    } 
 }   
 
