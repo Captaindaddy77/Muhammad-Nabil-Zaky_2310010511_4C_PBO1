@@ -106,7 +106,7 @@ private double harga;
 private String jenis;
 ```
 
-8. **Inheritance** adalah konsep di mana sebuah class bisa mewarisi property dan method dari class lain. Pada kode ini, `MahasiswaDetail` mewarisi `Mahasiswa` dengan sintaks `extends`.
+8. **Inheritance** adalah konsep di mana sebuah class bisa mewarisi property dan method dari class lain. Pada kode ini, `ParfumDiskon` mewarisi `Parfum` dengan sintaks `extends`.
 
 ```bash
 public class ParfumDiskon extends Parfum {
@@ -114,7 +114,7 @@ public class ParfumDiskon extends Parfum {
 }
 ```
 
-9. **Polymorphism** adalah konsep di mana sebuah nama dapat digunakan untuk merujuk ke beberapa tipe atau bentuk objek berbeda. Ini memungkinkan metode-metode dengan nama yang sama untuk berperilaku berbeda tergantung pada tipe objek yang mereka manipulasi, polymorphism bisa berbentuk Overloading ataupun Overriding. Pada kode ini, method `tampilInfo()` di `ParfumDiskon` merupakan override dari method `displayInfo` di `Parfum`.
+9. **Polymorphism** adalah konsep di mana sebuah nama dapat digunakan untuk merujuk ke beberapa tipe atau bentuk objek berbeda. Ini memungkinkan metode-metode dengan nama yang sama untuk berperilaku berbeda tergantung pada tipe objek yang mereka manipulasi, polymorphism bisa berbentuk Overloading ataupun Overriding. Pada kode ini, method `tampilInfo()` di `ParfumDiskon` merupakan override dari method `tampilInfo` di `Parfum`.
 
 ```bash
 public void tampilInfo() {
